@@ -1,10 +1,10 @@
 [project]
-name = "connect-four-ai"
+name = "connect-four-ai-linux"
 version = "1.0.0"
-description = "A high performance implementation of a perfect Connect Four solver, written in Rust."
+description = "A high performance implementation of a perfect Connect Four solver, written in Rust, ported to Linux."
 readme = "README.md"
 authors = [
-    { name = "Benjamin Rall", email = "benr2508@aol.com" }
+    { name = "Universal, Open, Free, and Transparent Computer Poker Research Group", email = "juhok@cs.cmu.edu" }
 ]
 requires-python = ">=3.13"
 classifiers = [
@@ -14,7 +14,7 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/benjaminrall/connect-four-ai"
+Homepage = "https://github.com/uoftcprg/connect-four-ai-linux"
 
 [build-system]
 requires = ["maturin>=1.0,<2.0"]
